@@ -1,0 +1,14 @@
+/* Add a comment here */
+
+body {
+    font-size: 20px;
+    color: rgb(76, 0, 255);
+}
+
+div {
+    background-color: grey;
+}
+/* This will target the p element that has an ID of paragraph_1 */
+#paragraph_1 {
+	font-size: 16px;
+}
