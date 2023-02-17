@@ -1,14 +1,40 @@
 /* Add a comment here */
 
 body {
+    background-color: black;
     font-size: 20px;
-    color: rgb(76, 0, 255);
+    color: rgb(253, 252, 255);
 }
 
 div {
-    background-color: grey;
+    background-color: rgb(5, 5, 5);
 }
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: palevioletred;
+    color: black;
+}
+.topnav a.active {
+    background-color: palevioletred;
+    color:black
+}
+
 /* This will target the p element that has an ID of paragraph_1 */
 #paragraph_1 {
 	font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
