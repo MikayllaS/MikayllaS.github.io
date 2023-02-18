@@ -46,3 +46,13 @@ div {
 	font-size: 16px;
     font-family: sans-serif;
 }
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 4px solid;
+    border-color: palevioletred ;
+	border-collapse: collapse;
+}
