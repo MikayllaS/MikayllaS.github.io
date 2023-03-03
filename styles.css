@@ -11,23 +11,24 @@ div {
     background-color: rgb(0, 0, 0);
 }
 
-.topnav {
+nav {
     background-color: black;
     overflow: hidden;
     height: 150px;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    margin-top: 50px;
     text-decoration: none;
     font-size: 17px;
     font-family: sans-serif;
 }
 
-.topnav:hover {
+nav:hover {
     background-color: rgb(248, 153, 185);
     color: black;
 }
-.topnav:active {
+nav:active {
     background-color: rgb(248, 153, 185);
     color:black
 }
