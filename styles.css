@@ -1,0 +1,92 @@
+/* Add a comment here */
+
+body {
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(253, 252, 255);
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+nav:hover {
+    background-color: rgb(248, 153, 185);
+    color: black;
+}
+nav:active {
+    background-color: rgb(248, 153, 185);
+    color:black
+}
+
+img {
+    height: 1080px;
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+/* This will target the p element that has an ID of paragraph_1 */
+#paragraph_1 {
+	font-size: 16px;
+    font-family: sans-serif;
+}
+
+div table {
+	width: 50%;
+    background-color: white; 
+    
+}
+
+table, th, td {
+	border: 4px solid;
+    border-color: palevioletred ;
+	border-collapse: collapse;
+}
+
+tr, th {
+	padding: 15px;
+}
+th {
+	height: 70px;
+	text-align: center;
+}
+
+td {
+	height: 50px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+tr:hover {
+	background-color: lightpink;
+}
+
+footer { 
+    background-color: black;
+    overflow: hidden;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
